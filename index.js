@@ -1,7 +1,7 @@
 // --- 1. KEEP-ALIVE SERVER (For 24/7 Hosting) ---
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 
 app.get('/', (req, res) => res.send('Jacebot is online! 🤖'));
 app.listen(port, () => console.log(`🔗 Web server listening on port ${port}`));
